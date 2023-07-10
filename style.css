@@ -1,0 +1,141 @@
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+  padding: 20px;
+}
+.menus>ul{
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+}
+.banner-container{
+  height: 100vh;
+  background-image: url("./asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.text-primary{
+  color: red;
+}
+.title{
+  font-size: 55px;
+  font-weight: bold;
+  color: #fff;
+}
+.description{
+  color: #fff;
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+}
+.btn{
+  padding: 12px 20px;
+  border: 0;
+}
+.bg-primary{
+  background-color: red;
+  color: #fff;
+}
+.service-container{
+  height: 100vh;
+  color: #fff;
+  background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+
+}
+.icon{
+  width: 70px;
+}
+.box{
+  text-align: center;
+  width: 150px;
+  height: 100px;
+  padding: 50px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  /*box-shadow: 4px 4px 8px gray;*/
+}
+.boxes{
+  display: flex;
+  gap: 3px;
+  margin-top: 5px;
+}
+.service-description{
+  width: 50%;
+}
+.author-img{
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+
+}
+.author-container{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.profile-container{
+  display: flex;
+  gap: 10px;
+  border-right: 2px solid red;
+  padding-right: 20px;
+}
+.phone-call{
+  display: flex;
+  align-items: center;
+}
+.appoinment-container{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  padding: 20px;;
+  background-color: red;
+  border-radius: 10px;
+  margin-top: -35px;
+  align-items: center;
+}
+.blog-container{
+  width: 80%;
+  margin: auto;
+}
+.blog-title{
+  color: #000;
+  text-align: center;
+  margin: 45px;
+}
+.card{
+  width: 230px;
+  height: 280px;
+  background-color: aliceblue;
+  box-shadow: 4px 8px 4px gray;
+  border-radius: 5px;
+}
+.blog-img{
+  width: 100%;
+  border-radius: 5px;
+}
+.card-title{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
